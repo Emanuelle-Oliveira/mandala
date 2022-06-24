@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #013d04;
+    color: white;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    margin: 0;
+    padding-bottom: 0;
+    font-size: 48px;
+    font-weight: bold;
+    font-variant: small-caps;
+    vertical-align: middle;
+}
+
+.logo{
+    padding: 0;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+main{
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+#principal{
+  margin: auto;
+  width: 80%;
+}
+
+#coluna1{
+  width: 60%;
+  text-align: justify;
+}
+
+#coluna2{
+  width: 40%;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 330px;
+}
+
+.statistic {
+  font-size: 60px;
+  color: #013d04;
+  margin: auto;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+#currentDate{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+#h2Umidade{
+  margin-bottom: 20px;
+}
+
+h3{
+  font-size: 30px;
+  font-weight: bold;
+  color: #013d04;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #013d04;
+  font-weight: bold;
+}
+
+a:visited{
+  text-decoration: none;
+  color: #013d04;
+  font-weight: bold;
+}
+
+button{
+  background-color: #013d04;
+  font-weight: bold;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+#botao1{
+  margin-right: 10%;
+}
+
+#botao2{
+  margin-left: 10%;
+}
+
+button:hover{
+  background-color: rgb(223, 226, 223);
+  font-weight: bold;
+  color: #013d04;
+  border: none;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #013d04;
+}

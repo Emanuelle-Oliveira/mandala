@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Mandala - Controle de Umidade do Solo</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <header>
+      <img class="logo" src="img/logo.jpeg" height="70px">
+      <span class="titulo">Controle de umidade do solo</span>
+    </header>
+    <main>
+      <div class="container content">
+        <div class="row">
+          <div class="col s12 m6">
+            <div class="card">
+                <div class="card-image center">
+                  <h2 id="h2Umidade">Umidade</h2>
+                  <span id="currentUmid" class="statistic">-</span>
+                  <div id="currentDate">-</div>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image center">
+                <h2>Histórico</h2>
+                <canvas id="umidLineChart"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <a href="manual_operacao.html">
+        <button id="botao1">Manual de Operação</button>
+      </a>
+      <button onclick="gerarPdf()" id="botao2">Gerar Relatório</button>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script src="app.js"></script>
+  </body>
+</html>
